@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  div{
+    height: 350px;
+    width: 400px;
+    border: 10px dotted black;
+    padding:35px;
+    margin-top: 20px;
+  }
+.border-box {
+  background-image: url(img/rix.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+ 
+.padding-box {
+   background-image:url(img/rix.png);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+ 
+.content-box {
+  background-image: url(img/rix.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+</style>
+</head>
+<body>
+ 
+<h1>The background-image Property</h1>
+ 
+<p>background-image </p>
+<div class="border-box">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, .</p>
+</div>
+ 
+<p>background-image: padding-box:</p>
+<div class="padding-box">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, </p>
+</div>
+ 
+<p>background-image: content-box:</p>
+<div class="content-box">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ipsam.</p>
+</div>
+ 
+</body>
+</html
